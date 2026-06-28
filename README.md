@@ -1,11 +1,20 @@
-# Awesome-Compute-Optimal-Training
-## Compute-Optimal Training: Evolution, Variants, Types, & Applications
+# 🚀 Awesome Compute-Optimal Training 📊
 
-Compute-Optimal Training is a cornerstone framework in Large Language Model (LLM) pre-training that determines the exact mathematical balance between a model's parameter scale ($N$) and the total volume of training data ($D$, measured in tokens) to achieve the maximum possible performance (lowest cross-entropy loss) for a fixed compute budget ($C$). Prioritising compute efficiency prevents developers from wasting millions of dollars in GPU capital on architectures that are either "capacity-starved" (too large for their data) or "over-trained" relative to optimal efficiency thresholds. 
+<p align="center">
+  <img src="assets/banner.svg" alt="Compute-Optimal Training Banner" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## 🔍 Compute-Optimal Training: Evolution, Variants, Types, & Applications
+
+**Compute-Optimal Training** is a cornerstone framework in Large Language Model (LLM) pre-training that determines the exact mathematical balance between a model's parameter scale ($N$) and the total volume of training data ($D$, measured in tokens) to achieve the maximum possible performance (lowest cross-entropy loss) for a fixed compute budget ($C$). Prioritising compute efficiency prevents developers from wasting millions of dollars in GPU capital on architectures that are either "capacity-starved" (too large for their data) or "over-trained" relative to optimal efficiency thresholds. 
 
 ---
 
-## 1. The Chronological Evolution
+## 📅 1. The Chronological Evolution
 
 The technical approach to scaling artificial intelligence has transitioned from parameter-skewed estimations to tightly bounded tokens-per-parameter allocations and downstream-focused inference-optimized overtraining profiles.
 
@@ -25,7 +34,7 @@ flowchart LR
 
 ---
 
-## 2. Core Scaling Law Variants
+## ⚙️ 2. Core Scaling Law Variants
 
 Compute-optimal frameworks are mathematically structured around distinct empirical scaling approaches to isolate power-law exponents.
 
@@ -37,7 +46,7 @@ Compute-optimal frameworks are mathematically structured around distinct empiric
 
 ---
 
-## 3. Training Modifications & Structural Types
+## 🛠️ 3. Training Modifications & Structural Types
 
 Depending on whether an AI system integrates safety alignments or structural sparse routing, compute-optimal training configurations require unique modifications.
 
@@ -48,7 +57,7 @@ Depending on whether an AI system integrates safety alignments or structural spa
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## ⚡ 4. Production Engineering Challenges & Mitigations
 
 Executing massive compute-optimal training runs across large-scale distributed hardware clusters introduces severe hyperparameter risks and data scarcity walls.
 
@@ -59,7 +68,7 @@ Executing massive compute-optimal training runs across large-scale distributed h
 
 ---
 
-## 5. Frontier Real-World AI Infrastructure Applications
+## 🏢 5. Frontier Real-World AI Infrastructure Applications
 
 | Application | Description | Year | First Paper |
 | :--- | :--- | :--- | :--- |
