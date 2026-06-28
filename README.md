@@ -75,3 +75,14 @@ Executing massive compute-optimal training runs across large-scale distributed h
 | [**Pre-Training Frontier Foundation LLM Suites (Llama / DeepSeek)**](details/pretraining_frontier_suites.md) | **Application:** Guides cluster-wide hardware allocation policies. Deep learning infrastructure teams run tiny, high-precision pilot runs to calibrate scaling equations exactly, ensuring that multi-million dollar training budgets spent over thousands of GPUs yield the absolute sharpest possible model intelligence. | 2023 | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) |
 | [**High-Throughput inference-Optimized Serving (vLLM Deployments)**](details/high_throughput_serving.md) | **Application:** Maximizes enterprise server concurrency. By leveraging the principles of inference-optimal overtraining, companies serve heavily over-trained 1.5B and 8B parameters models that match the reasoning capacity of older 70B networks, dropping VRAM overhead and cutting request processing latencies. | 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) |
 | [**Sparsely Routed Mixture-of-Experts Scaling (DeepSeek-V3 / Mixtral)**](details/sparsely_routed_moe.md) | **Application:** Orchestrates distributed training pipelines. Compute-optimal tracking models for sparse architectures map exact token-to-expert routing ratios, ensuring data-parallel and expert-parallel hardware shards balance compute processing loops without encountering server stalls. | 2024 | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Compute-Optimal-Training&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Compute-Optimal-Training&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Compute-Optimal-Training&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Compute-Optimal-Training&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
