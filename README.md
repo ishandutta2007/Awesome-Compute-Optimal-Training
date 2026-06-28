@@ -10,7 +10,10 @@ Compute-Optimal Training is a cornerstone framework in Large Language Model (LLM
 The technical approach to scaling artificial intelligence has transitioned from parameter-skewed estimations to tightly bounded tokens-per-parameter allocations and downstream-focused inference-optimized overtraining profiles.
 
 ```mermaid
-[Kaplan Scaling Laws (2020)] ----> [Chinchilla Laws (Hoffmann et al., 2022)] ----> [Inference-Optimal Overtraining (2024+)](Prioritised Model Size Over Data)      (Equally Scaled Size & Data: 20 tokens/param)    (Deep Token Ingestion: 100k+ tokens/param)
+flowchart LR
+    A["Kaplan Scaling Laws (2020)<br/>(Prioritized Model Size Over Data)"]
+    --> B["Chinchilla Laws (Hoffmann et al., 2022)<br/>(Balanced Model Size & Data: ~20 Tokens/Param)"]
+    --> C["Inference-Optimal Overtraining (2024+)<br/>(Deep Token Ingestion: 100k+ Tokens/Param)"]
 ```
 
 
